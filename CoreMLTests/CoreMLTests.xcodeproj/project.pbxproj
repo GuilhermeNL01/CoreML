@@ -12,6 +12,9 @@
 		4034FAE92B867D5E00639F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4034FAE82B867D5E00639F34 /* Assets.xcassets */; };
 		4034FAEC2B867D5E00639F34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4034FAEB2B867D5E00639F34 /* Preview Assets.xcassets */; };
 		4034FAF32B867F3800639F34 /* FrutinhasML.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4034FAF22B867F3800639F34 /* FrutinhasML.mlmodel */; };
+		4034FAFC2B86960800639F34 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4034FAFB2B86960800639F34 /* CameraView.swift */; };
+		4034FB042B8697EA00639F34 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4034FB032B8697EA00639F34 /* CameraViewController.swift */; };
+		4034FB062B86984B00639F34 /*  ImageClassificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4034FB052B86984B00639F34 /*  ImageClassificationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		4034FAEB2B867D5E00639F34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4034FAF22B867F3800639F34 /* FrutinhasML.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FrutinhasML.mlmodel; sourceTree = "<group>"; };
 		4034FAF42B868DAA00639F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4034FAFB2B86960800639F34 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		4034FB032B8697EA00639F34 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		4034FB052B86984B00639F34 /*  ImageClassificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " ImageClassificationViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +44,6 @@
 		4034FAD82B867D5B00639F34 = {
 			isa = PBXGroup;
 			children = (
-				4034FAF22B867F3800639F34 /* FrutinhasML.mlmodel */,
 				4034FAE32B867D5B00639F34 /* CoreMLTests */,
 				4034FAE22B867D5B00639F34 /* Products */,
 			);
@@ -55,10 +60,11 @@
 		4034FAE32B867D5B00639F34 /* CoreMLTests */ = {
 			isa = PBXGroup;
 			children = (
+				4034FAFA2B8691B500639F34 /* App */,
+				4034FAF92B86919B00639F34 /* Model */,
+				4034FAF82B86918500639F34 /* ViewModels */,
+				4034FAF72B86917600639F34 /* Views */,
 				4034FAF42B868DAA00639F34 /* Info.plist */,
-				4034FAE42B867D5B00639F34 /* CoreMLTestsApp.swift */,
-				4034FAE62B867D5B00639F34 /* ContentView.swift */,
-				4034FAE82B867D5E00639F34 /* Assets.xcassets */,
 				4034FAEA2B867D5E00639F34 /* Preview Content */,
 			);
 			path = CoreMLTests;
@@ -70,6 +76,41 @@
 				4034FAEB2B867D5E00639F34 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4034FAF72B86917600639F34 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4034FAE62B867D5B00639F34 /* ContentView.swift */,
+				4034FAFB2B86960800639F34 /* CameraView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4034FAF82B86918500639F34 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4034FB032B8697EA00639F34 /* CameraViewController.swift */,
+				4034FB052B86984B00639F34 /*  ImageClassificationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4034FAF92B86919B00639F34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4034FAFA2B8691B500639F34 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4034FAF22B867F3800639F34 /* FrutinhasML.mlmodel */,
+				4034FAE42B867D5B00639F34 /* CoreMLTestsApp.swift */,
+				4034FAE82B867D5E00639F34 /* Assets.xcassets */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +185,10 @@
 			files = (
 				4034FAE72B867D5B00639F34 /* ContentView.swift in Sources */,
 				4034FAE52B867D5B00639F34 /* CoreMLTestsApp.swift in Sources */,
+				4034FAFC2B86960800639F34 /* CameraView.swift in Sources */,
+				4034FB042B8697EA00639F34 /* CameraViewController.swift in Sources */,
 				4034FAF32B867F3800639F34 /* FrutinhasML.mlmodel in Sources */,
+				4034FB062B86984B00639F34 /*  ImageClassificationViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

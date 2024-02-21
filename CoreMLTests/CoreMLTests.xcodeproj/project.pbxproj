@@ -21,6 +21,7 @@
 		4034FAE82B867D5E00639F34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4034FAEB2B867D5E00639F34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4034FAF22B867F3800639F34 /* FrutinhasML.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FrutinhasML.mlmodel; sourceTree = "<group>"; };
+		4034FAF42B868DAA00639F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		4034FAE32B867D5B00639F34 /* CoreMLTests */ = {
 			isa = PBXGroup;
 			children = (
+				4034FAF42B868DAA00639F34 /* Info.plist */,
 				4034FAE42B867D5B00639F34 /* CoreMLTestsApp.swift */,
 				4034FAE62B867D5B00639F34 /* ContentView.swift */,
 				4034FAE82B867D5E00639F34 /* Assets.xcassets */,
@@ -279,6 +281,8 @@
 				DEVELOPMENT_TEAM = M9H5R689TD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoreMLTests/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "\"We need this to analyse the contents displayed on the camera\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -308,6 +312,8 @@
 				DEVELOPMENT_TEAM = M9H5R689TD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoreMLTests/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "\"We need this to analyse the contents displayed on the camera\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -99,6 +99,7 @@
 		4034FAF92B86919B00639F34 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4034FAF22B867F3800639F34 /* FrutinhasML.mlmodel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -106,7 +107,6 @@
 		4034FAFA2B8691B500639F34 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				4034FAF22B867F3800639F34 /* FrutinhasML.mlmodel */,
 				4034FAE42B867D5B00639F34 /* CoreMLTestsApp.swift */,
 				4034FAE82B867D5E00639F34 /* Assets.xcassets */,
 			);
